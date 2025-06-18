@@ -8,6 +8,51 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "*.{js,ts,jsx,tsx,mdx}"
   ],
+  safelist: [
+    // Animation classes
+    'animate-float-slow',
+    'animate-float-medium', 
+    'animate-float-fast',
+    'animate-glow',
+    'animate-pulse',
+    'animate-in',
+    'animate-out',
+    'fade-in-0',
+    'fade-out-0',
+    'zoom-in-95',
+    'zoom-out-95',
+    'slide-in-from-top-2',
+    'slide-in-from-bottom-2',
+    'slide-in-from-left-2',
+    'slide-in-from-right-2',
+    'slide-out-to-top-2',
+    'slide-out-to-bottom-2',
+    'slide-out-to-left-2',
+    'slide-out-to-right-2',
+    // Hover effects
+    'hover:opacity-40',
+    'hover:opacity-60',
+    'hover:opacity-35',
+    'hover:opacity-50',
+    'hover:opacity-30',
+    'hover:opacity-45',
+    'hover:opacity-65',
+    'hover:opacity-30',
+    'hover:opacity-40',
+    'hover:opacity-35',
+    'hover:opacity-45',
+    // Transition classes
+    'transition-opacity',
+    'transition-all',
+    'transition-transform',
+    'duration-300',
+    'duration-200',
+    // Custom classes
+    'book-glow',
+    'social-icon-hover',
+    'logo-container',
+    'line-clamp-2'
+  ],
   theme: {
   	extend: {
   		colors: {
